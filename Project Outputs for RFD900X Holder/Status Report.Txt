@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RFD900X Holder.PcbDoc]
+   Generated File[RFD900X Holder.TXT]
+   Generated File[RFD900X Holder.LDP]
+   Generated File[RFD900X Holder.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:11:45 On 10.02.2022
