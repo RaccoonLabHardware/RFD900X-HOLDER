@@ -2,27 +2,29 @@
 FileName = RFD900X Holder.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 2
-      File : RFD900X Holder.GM2
+Generating : Top Paste
+      File : RFD900X Holder.GTP
 
-    Adding Layer      : Mechanical 2
+    Adding Layer      : Top Paste
 
+    Adding Layer      : Top Layer
 
-Used DCodes :
-    D53
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : RFD900X Holder.GBO
-
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D13
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
 *************************************************************
 
 *************************************************************
@@ -37,15 +39,50 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D14
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : RFD900X Holder.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
     D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : RFD900X Holder.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Layer
+      File : RFD900X Holder.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -53,12 +90,27 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D26
-    D27
-    D38
-    D39
-    D40
-    D41
+    D16
+    D17
+    D43
+    D44
+    D46
+    D50
+    D51
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : RFD900X Holder.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+    D56
 *************************************************************
 
 *************************************************************
@@ -73,7 +125,6 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D26
     D27
     D28
     D29
@@ -89,32 +140,27 @@ Used DCodes :
     D39
     D40
     D41
+    D42
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : RFD900X Holder.GTP
+Generating : Bottom Solder
+      File : RFD900X Holder.GBS
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Bottom Solder
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
+    D28
+    D29
+    D39
+    D40
+    D41
+    D42
 *************************************************************
 
 *************************************************************
@@ -129,63 +175,21 @@ Used DCodes :
     D11
     D12
     D13
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : RFD900X Holder.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D14
-    D15
-    D42
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : RFD900X Holder.GTL
+Generating : Bottom Overlay
+      File : RFD900X Holder.GBO
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
     D10
+    D11
+    D13
     D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
+    D55
 *************************************************************
 
