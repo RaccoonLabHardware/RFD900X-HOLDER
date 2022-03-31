@@ -6,9 +6,8 @@ default boudrate 57600
 
 AES KEY: 603DEB1015CA71BE2B73AEF085700000
 
-
+## You can just update params by AT mode:
 ```
-AT:
 +++
 ATI5
 S8:MIN_FREQ=902000
