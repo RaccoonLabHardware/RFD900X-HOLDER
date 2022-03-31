@@ -1,3 +1,11 @@
+# RFD900X connector
+
+![conn](setup/conn.png?raw=true "conn RFD900X")
+
+# RFD900X view
+
+![conn](setup/screen.png?raw=true "View RFD900X")
+
 # RFD900X setup
 
 ![setup](setup/setup.png?raw=true "setup RFD900X")
