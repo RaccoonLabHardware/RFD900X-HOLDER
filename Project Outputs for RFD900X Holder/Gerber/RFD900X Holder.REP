@@ -2,103 +2,27 @@
 FileName = RFD900X Holder.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Layer
-      File : RFD900X Holder.GTL
+Generating : Mechanical 2
+      File : RFD900X Holder.GM2
 
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 2
 
 
 Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
+    D62
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : RFD900X Holder.GBL
+Generating : Bottom Overlay
+      File : RFD900X Holder.GBO
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D41
-    D42
-    D45
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : RFD900X Holder.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
     D11
     D12
     D13
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : RFD900X Holder.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
 *************************************************************
 
 *************************************************************
@@ -120,27 +44,27 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : RFD900X Holder.GBO
+Generating : Bottom Solder
+      File : RFD900X Holder.GBS
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Bottom Solder
 
+    Adding Layer      : Bottom Layer
 
-Used DCodes :
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 2
-      File : RFD900X Holder.GM2
-
-    Adding Layer      : Mechanical 2
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D62
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D58
+    D59
+    D60
+    D61
 *************************************************************
 
 *************************************************************
@@ -174,10 +98,47 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : RFD900X Holder.GBS
+Generating : Top Paste
+      File : RFD900X Holder.GTP
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : RFD900X Holder.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : RFD900X Holder.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -185,15 +146,54 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D58
-    D59
-    D60
-    D61
+    D41
+    D42
+    D45
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : RFD900X Holder.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
 *************************************************************
 
