@@ -1,0 +1,38 @@
+Altium Designer Pick and Place Locations
+C:\Users\beljj\Desktop\проекты\GitHub\RFD900X-HOLDER\Project Outputs for RFD900X Holder\Pick Place\Pick Place for RFD900X Holder.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       13.07.22
+Time:       13:13
+Revision:   61b6ff95e29d3db10ae9d2865f3e74dc262d698f
+Variant:    No variations
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"TELEM1","502585-0670","BottomLayer","MOLEX_502585-0670","29.3000","13.1000","180","1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural"
+"U1","TPS54361QDPRRQ1","TopLayer","DPR0010A","32.1750","14.4250","90","4.5-V to 60-V Input, 3.5-A, Step Down DC-DC Converter with Soft-Start 10-WSON -40 to 125"
+"S1","selector","TopLayer","SELECTOR","39.1250","20.0750","90",""
+"R6","Res3","TopLayer","J1-0603","35.6500","21.2250","0","Resistor"
+"R5","RC0603FR-07160KL","TopLayer","J1-0603","34.9750","13.3000","270","160 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R4","RC0603FR-0762KL","TopLayer","J1-0603","35.6250","22.6000","180","Резистор 0603  68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R3","RC0603FR-0724KL","TopLayer","J1-0603","35.2250","18.7750","270","Резистор 0603  24 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
+"R2","RC0603FR-07180KL","TopLayer","J1-0603","34.2500","9.7000","180","180 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R1","RC0603FR-07910KL","TopLayer","J1-0603","31.5000","9.6750","0","910 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"J2","XT30PW-F","BottomLayer","XT30PW-F","29.1634","37.8019","0",""
+"C2","GRM31CR71H225KA88L","TopLayer","*CAP3216X125N","26.3750","12.7250","90","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
+"C1","GX035C104MAT2-500","TopLayer","*CAPC1608X90","23.2500","12.8000","270","Cap Thin Film 0.1uf 50v 0603"
+"TELEM2","SM06B-GHS-TB(LF)(SN)","BottomLayer","JST_SM06B-GHS-TB(LF)(SN)","17.4000","22.4250","90","Connector Header Surface Mount, Right Angle 6 position 0.049" (1.25mm)"
+"J1","TSW-108-09-L-D","BottomLayer","SAMTEC_TSW-108-09-L-D","29.1300","31.1300","0",""
+"C3","GRM31CR71H225KA88L","TopLayer","*CAP3216X125N","28.6500","12.7000","90","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
+"C4","GRM31CR61A476KE15L","TopLayer","*CAPC3216X125N","23.3750","25.1250","90","Multilayer Ceramic Capacitor, GRM Series, 47 - F, - 10%, X5R, 10 V, 1206 [3216 Metric]"
+"C5","GRM31CR61A476KE15L","TopLayer","*CAPC3216X125N","25.7250","25.1250","90","Multilayer Ceramic Capacitor, GRM Series, 47 - F, - 10%, X5R, 10 V, 1206 [3216 Metric]"
+"C6","GRM188R71H272KA01D","TopLayer","CAP0603","34.2500","11.2250","180","Конденсатор 0603 2700 пФ 50В Конденсатор керамический"
+"C7","MLCC30pFNPO50V5%0603","TopLayer","CAP0603","33.3250","18.1500","0","Конденсатор 0603 30пФ 50В Конденсатор керамический smd 30 пФ 0603"
+"C8","GRM1885C1H751JA01D","TopLayer","CAP0603","33.3000","19.4250","0","Конденсатор 0603 750 пФ 50В Конденсатор керамический"
+"D1","SK56","TopLayer","*SMB_P6SMB62AT3G(Primary)","28.0500","18.6000","0","Диод Шоттки 5А 60В [SMB / DO-214AA]"
+"R7","RC0603FR-0762KL","TopLayer","J1-0603","38.2750","18.1250","90","Резистор 0603  68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+"R8","RC0603FR-0727KL","TopLayer","J1-0603","39.9750","18.1000","90","Резистор 0603  27 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film"
+"SBUS_OUT","SM05B-GHS-TB(LF)(SN)","BottomLayer","JST_SM05B-GHS-TB(LF)(SN)","40.8250","23.0250","270","Connector Header Surface Mount, Right Angle 5 position 0.049" (1.25mm)"
+"L1","IHLP2525CZER8R2M01","TopLayer","*IND_IHLP_2525_CZ","30.4250","24.3043","270","IHLP2525CZER8R2M01, 8.2uH 4A 20% Low Profile High Current SMT Inductor, Индуктивность"

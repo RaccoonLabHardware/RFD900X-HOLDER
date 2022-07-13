@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [RFD900X Holder.PcbDoc]
-   Generated File[RFD900X Holder.TXT]
-   Generated File[RFD900X Holder.LDP]
-   Generated File[RFD900X Holder.DRR]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of BOM Document [BOM.BomDoc]
+   Generated File[Bill of Materials-BOM.xlsx]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 17:52:44 On 11.02.2022
+Finished Output Generation At 13:13:21 On 13.07.2022
