@@ -126,7 +126,24 @@ GenerateClassCluster=0
 DocumentUniqueId=NRGRRRVK
 
 [Document6]
-DocumentPath=Project Outputs for RFD900X Holder\CAMtastic1.Cam
+DocumentPath=DRW.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=Project Outputs\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -143,72 +160,160 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for RFD900X Holder\Design Rule Check - RFD900X Holder.html
+DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for RFD900X Holder\NC Drill\RFD900X Holder.DRR
+DocumentPath=Project Outputs for RFD900X Holder\Design Rule Check - RFD900X Holder.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.EXTREP
+DocumentPath=Project Outputs\Pick Place\Pick Place for RFD900X Holder.csv
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBL
+DocumentPath=Project Outputs\Pick Place\Pick Place for RFD900X Holder.txt
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBO
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBP
+DocumentPath=Project Outputs for RFD900X Holder\NC Drill\RFD900X Holder.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBS
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GM2
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTL
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTO
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTP
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTS
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for RFD900X Holder\NC Drill\RFD900X Holder.LDP
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.REP
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.RUL
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for RFD900X Holder\NC Drill\RFD900X Holder.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.REP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.REP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for RFD900X Holder\Gerber\RFD900X Holder.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=doc\RFD900X Holder.step
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument35]
 DocumentPath=Project Outputs for RFD900X Holder\NC Drill\RFD900X Holder.TXT
 DItemRevisionGUID=
 
+[GeneratedDocument36]
+DocumentPath=doc\view-bottom.png
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=doc\view.png
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Quantity
-Value=10
+Name=Version
+Value=1.0.1
 
 [Configuration1]
 Name=Default Configuration

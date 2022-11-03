@@ -1,7 +1,10 @@
 History/
 Project Logs for */
 *.PrjPcbStructure
-*.step
 *.rar
 *.jpg
 __Previews/
+Status Report.Txt
+*.htm
+*.html
+~*

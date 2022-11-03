@@ -2,6 +2,9 @@
 
 ![conn](setup/conn.png?raw=true "conn RFD900X")
 
+DS-009 standart
+https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf
+
 # RFD900X view
 
 ![conn](setup/screen.png?raw=true "View RFD900X")

@@ -1,0 +1,29 @@
+Altium Designer Pick and Place Locations
+C:\altium workspace\RFD900X-HOLDER\Project Outputs\Pick Place\Pick Place for RFD900X Holder.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       03.11.22
+Time:       16:47
+Revision:   605dc1821d68c838d68e5e2d365079ebee64d414
+Variant:    No variations
+Units used: mm
+
+Designator Comment               Layer    Footprint                       Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                       
+SBUS       SM04B-GHS-TB(LF)(SN)- TopLayer JST_SM04B-GHS-TB(LF)(SN)-       41.1500      20.9750      90       "Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"                                                           
+TELEM      SM06B-GHS-TB(LF)(SN)  TopLayer JST_SM06B-GHS-TB(LF)(SN)        17.5250      22.1000      270      "Connector Header Surface Mount, Right Angle 6 position 0.049" (1.25mm)"                                                          
+RFD900X    "2.54mm 2x8R C52105"  TopLayer 2.54mm_2x8R                     29.1300      31.1200      0        ""                                                                                                                                
+C3         GX035C104MAT2-500     TopLayer *CAPC1608X90                    30.7250      17.7000      0        "Cap Thin Film 0.1uf 50v 0603"                                                                                                    
+C4         GRM31CR71H225KA88L    TopLayer *CAP3216X125N                   23.0500      18.3250      180      "1206 2.2 uF 50 V Â±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"                                                           
+C5         GRM31CR71H225KA88L    TopLayer *CAP3216X125N                   21.3250      14.6750      270      "1206 2.2 uF 50 V Â±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"                                                           
+C6         GRM31CR61A476KE15L    TopLayer *CAPC3216X125N                  30.9750      27.3250      180      "Multilayer Ceramic Capacitor, GRM Series, 47 - F, - 10%, X5R, 10 V, 1206 [3216 Metric]"                                          
+C7         GRM31CR61A476KE15L    TopLayer *CAPC3216X125N                  26.3250      27.3250      0        "Multilayer Ceramic Capacitor, GRM Series, 47 - F, - 10%, X5R, 10 V, 1206 [3216 Metric]"                                          
+C8         GRM188R71C105KA12D    TopLayer CAPC1608X90N                    34.0250      27.1000      270      "SMD Capacitor X7R(EIA) with Capacitance: 1.0uF Tol. 10%. Rated Voltage: 16Vdc"                                                   
+D1         SK56                  TopLayer *SMB_P6SMB62AT3G(Primary)       22.0750      24.1000      270      "Äèîä Øîòòêè 5À 60Â [SMB / DO-214AA]"                                                                                             
+R7         RC0603FR-0756KL       TopLayer J1-0603                         35.5500      27.1500      90       "56 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"                                         
+R8         RC0603FR-0756KL       TopLayer J1-0603                         36.9000      20.9500      270      "56 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"                                         
+R9         RC0603FR-0710KL       TopLayer J1-0603                         37.0250      27.1750      270      "10 kOhms 1 0.1 W 1 10 W Chip Resistor 0603 1608 Metric Thick Film"                                                               
+U5         LMR16030SDDAR         TopLayer *SOIC127P600X170-9N_-_duplicate 33.3750      22.1750      90       "LMR16030SDDAR, Conv DC-DC 4.3V to 60V Step Down Single-Out 1V to 50V 3A Automotive 8-Pin HSOP EP T/R"                            
+L1         IHLP2020BZER100M01    TopLayer IHLP                            27.6000      22.1500      270      "10AµH Shielded Molded Inductor 2.3A 199mOhm Max Nonstandard"                                                                     
+PWR        502585-0670           TopLayer MOLEX_502585-0670               29.6250      12.9500      0        "1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural" 
