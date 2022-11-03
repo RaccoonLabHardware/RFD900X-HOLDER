@@ -5,6 +5,8 @@
 DS-009 standart
 https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf
 
+RFD900X
+http://rfdesign.com.au/rfd900x-ism-modem/
 # RFD900X view
 
 ![conn](setup/screen.png?raw=true "View RFD900X")
