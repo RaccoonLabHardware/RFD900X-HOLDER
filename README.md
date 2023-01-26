@@ -2,11 +2,14 @@
 
 ![conn](setup/conn.png?raw=true "conn RFD900X")
 
+![conn](setup/pinout.jpg?raw=true "conn RFD900X")
+
 DS-009 standart
 https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf
 
 RFD900X
 http://rfdesign.com.au/rfd900x-ism-modem/
+
 # RFD900X view
 
 ![conn](setup/screen.png?raw=true "View RFD900X")
@@ -22,32 +25,31 @@ To setup RFD900X Firstly you should:
 - Reconnect
 - Set all parameters
 
-
 All parameters should be set relative to next lines:
 
 - Version should be: RFD SiK 3.57 on RFD900X
 - Format: 63
 - Boud: 57
 - Air Speed: 64
-- Net ID: 25
-- Tx Power: 30
+- Net ID: 25 (should be the same as UAV number)
+- Tx Power: 10 on ground (20 on board)
 - Mavlink: ON
 
-- Min Freq: 902000
+- Min Freq: 915000
 - Max Freq: 928000
-- N of Channels: 50
-- Duty Cycle: 100
+- N of Channels: 20
+- Duty Cycle: 60 on ground (80 on board)
 - LBT Rssi: 0
-- Max Window: 120
+- Max Window: 140
 - AES Encryption: 128b
 - AES KEY: 603DEB1015CA71BE2B73AEF0857D7781
 
-- In base station case: GPO1_1SBUSIN Checked 
+- In ground station case: GPO1_1SBUSIN Checked 
 - On board case: GPO1_1SBUSOUT: SBUS1_NOFAIL
 
 As the final result parameters should looks like this
 
-![setup](setup/setup.png?raw=true "setup RFD900X")
+![setup](setup/setup.jpg?raw=true "setup RFD900X")
 
 
 - Datasheet on [RFD900X](http://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.1.pdf)
