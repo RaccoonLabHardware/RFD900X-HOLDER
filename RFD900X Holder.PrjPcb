@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=RFD900X Holder.PcbDoc
+DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -115,7 +115,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -164,98 +164,174 @@ DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for RFD900X Holder\Design Rule Check - RFD900X Holder.html
+DocumentPath=Project Outputs\BOM\BOMtxt-BOM.txt
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs\Pick Place\Pick Place for RFD900X Holder.csv
+DocumentPath=Project Outputs\NC Drill\PCB-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs\Pick Place\Pick Place for RFD900X Holder.txt
+DocumentPath=Project Outputs\NC Drill\PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs\NC Drill\RFD900X Holder-RoundHoles.TXT
+DocumentPath=Project Outputs\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs\NC Drill\RFD900X Holder-SlotHoles.TXT
+DocumentPath=Project Outputs\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs\NC Drill\RFD900X Holder.DRR
+DocumentPath=Project Outputs\Gerber\PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.EXTREP
+DocumentPath=Project Outputs\Gerber\PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBL
+DocumentPath=Project Outputs\Gerber\PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBO
+DocumentPath=Project Outputs\Gerber\PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBP
+DocumentPath=Project Outputs\Gerber\PCB.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBS
+DocumentPath=Project Outputs\Gerber\PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GM2
+DocumentPath=Project Outputs\Gerber\PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTL
+DocumentPath=Project Outputs\Gerber\PCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTO
+DocumentPath=Project Outputs\Gerber\PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTP
+DocumentPath=Project Outputs\NC Drill\PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTS
+DocumentPath=Project Outputs\Gerber\PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs\NC Drill\RFD900X Holder.LDP
+DocumentPath=Project Outputs\Gerber\PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.REP
+DocumentPath=Project Outputs\Report Board Stack\PCB.xls
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs\Gerber\RFD900X Holder.RUL
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=doc\RFD900X Holder.step
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs\NC Drill\RFD900X Holder.TXT
+DocumentPath=Project Outputs\Pick Place\Pick Place for RFD900X Holder.csv
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=doc\view-bottom.png
+DocumentPath=Project Outputs\Pick Place\Pick Place for RFD900X Holder.txt
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=doc\view-top.png
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs\NC Drill\RFD900X Holder.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs\WireListNetlist\RFD900X Holder.NET
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.REP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs\Gerber\RFD900X Holder.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=doc\RFD900X Holder.step
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=doc\view-bottom.png
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument44]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 
@@ -315,7 +391,7 @@ OutputDir=Project Outputs for RFD900X Holder
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -689,7 +765,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -752,7 +828,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -860,7 +936,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -904,7 +980,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -965,7 +1041,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files

@@ -1,57 +1,167 @@
-# RFD900X connector
+# RFD900X Holder v1.0.1 hardware 
 
-![conn](setup/conn.png?raw=true "conn RFD900X")
+| View | Top | Bottom |
+| ---- | --- | ------ |
+| <img src="doc/t-view.png" alt="drawing" width="300"> | <img src="doc/t-view-top.png" alt="drawing" width="300"/> | <img src="doc/t-view-bottom.png" alt="drawing" width="300"/> |
+|  | <img src="doc/r-view-top.jpg" alt="drawing" width="300"/> | <img src="doc/r-view-bottom.jpg" alt="drawing" width="300"/> |
 
-![conn](setup/pinout.jpg?raw=true "conn RFD900X")
+## Features
 
-DS-009 standart
-https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf
+# Wiring
 
-RFD900X
-http://rfdesign.com.au/rfd900x-ism-modem/
+Schematic features. Schematic can be provided via issue.
 
-# RFD900X view
+**Connectors**
 
-![conn](setup/screen.png?raw=true "View RFD900X")
+The node has connectors which are described in the table below.
 
-Where to buy [link](https://store.rfdesign.com.au/rfd-900x-modem/)
+| N | Connector | Description |
+| - | - | - |
+| 1 | SBUS |  |
+| 2 | TELEM |  |
 
-# RFD900X setup
+[Here](https://docs.raccoonlab.co/guide/wires/) you can find manufacturer part number of connectors it self and its mates.
 
-To setup RFD900X Firstly you should:
-- Download and install [RFD Tool](http://files.rfdesign.com.au/tools/). 
-- Download latest firmware [here](https://github.com/RFDesign/rfdesign.github.io/tree/master/Files/firmware). For 17.11.2022 the latest version is [RFDSiK V3.57 rfd900x.bin](https://github.com/RFDesign/rfdesign.github.io/blob/master/Files/firmware/RFDSiK%20V3.57%20rfd900x.bin) and [RFDSiK V3.57 rfd900x2.gbl](https://github.com/RFDesign/rfdesign.github.io/blob/master/Files/firmware/RFDSiK%20V3.57%20rfd900x2.gbl) 
-- Open RFD Tool, Click button 'Upload Firmware', select downloaded .bin or .gbl
-- Reconnect
-- Set all parameters
+## Pin configuration and functions
 
-All parameters should be set relative to next lines:
-
-- Version should be: RFD SiK 3.57 on RFD900X
-- Format: 63
-- Boud: 57
-- Air Speed: 64
-- Net ID: 25 (should be the same as UAV number)
-- Tx Power: 10 on ground (20 on board)
-- Mavlink: ON
-
-- Min Freq: 915000
-- Max Freq: 928000
-- N of Channels: 20
-- Duty Cycle: 60 on ground (80 on board)
-- LBT Rssi: 0
-- Max Window: 140
-- AES Encryption: 128b
-- AES KEY: 603DEB1015CA71BE2B73AEF0857D7781
-
-- In ground station case: GPO1_1SBUSIN Checked 
-- On board case: GPO1_1SBUSOUT: SBUS1_NOFAIL
-
-As the final result parameters should looks like this
-
-![setup](setup/setup.jpg?raw=true "setup RFD900X")
+| Pin N | SBUS | Pin N | TELEM |
+| ----- | ---------------- | ----- | ---------------- |
+| 1 | 5V | 1 | 5V |
+| 2 | GPIO1 | 2 | RXI_RFD |
+| 4 | GND | 3 | TXO_RFD |
+| SH1 | GND | 4 | RTS |
+| SH2 | GND | 5 | CTS |
+| 6 | GND |
+| S1 | GND |
+| S2 | GND |
 
 
-- Datasheet on [RFD900X](http://files.rfdesign.com.au/Files/documents/RFD900x%20DataSheet%20V1.1.pdf)
+Here you can see all connections of MCU.
 
-- User manual presented [here](http://files.rfdesign.com.au/Files/documents/RFD900x%20Peer-to-peer%20V3.X%20User%20Manual%20V1.2.pdf)
+<img src="doc/pinout.png" alt="pinout"/>
+
+| MCU PIN         | PIN Numer | NET Name | Description |
+| ---------- |  -- | --------------  | - |
+
+
+## Specifications
+
+**Mechanical**
+
+Scheme is shown on the picture below. CAN model can be provided via email request or issue on github or downloaded on GrabCAD (opens new window).
+
+<img src="doc/drw.png" alt="drawing" height="400"/>
+
+|       | Width, mm | Length, mm | Height, mm |
+| ----- | --------- | ---------- | ---------- |
+|Outline|      36.1 |      106.6 |       13.7 |
+|PCB    |      36.1 |      52.35 |        1.2 |
+
+Total weight of device less than 50 g.
+
+### Housing
+
+Information about case presented here.
+
+### Absolute Maximum Ratings
+
+### Recommended operating conditions
+
+### ESD ratings
+
+### MTFF
+
+## Integration
+
+**Recommended mechanical mounting**
+
+**Connection example diagram**
+
+### Power Supply Recommendations
+
+Device is designed to operate from an input voltage supply range between 4.5 V and 5.5 V over CAN2 or CAN3 connector, or 5.5 - 30 V from CAN1. This input supply must be able to withstand the maximum input current and maintain a stable voltage. The resistance of the input supply rail should be low enough that an input current transient does not cause a high enough drop that can cause a false UVLO fault triggering and system reset. The amount of bulk capacitance is not critical, but a 47-uF or 100-uF electrolytic capacitor is a typical choice.
+
+## Revision history
+
+|View |Version| Date| Description|
+|-    |-      |-    |-           |
+
+
+
+## Order details
+
+### PCB Specification Selection
+
+- Board type : Panel by PCBWay
+- Break-away rail: Yes
+- Instructions:
+~~~
+Final size is larger ( 36.1 x 106.6 mm ) than board it self ( 36.1 x 52.35 mm), 
+take a look at the picure in attachements. 
+Panel should be designed to be able to install PWM1, PWM2 while assembly.
+~~~
+- Route Process: Panel as PCBWay prefer
+- X-out Allowance in Panel:  Accept
+
+- Size (single): 36.1 x 52.35 mm
+- Quantity (single): 200
+- Layers: 2 -   ['Top Layer', 'Bottom Layer']
+
+- Material: FR-4
+- FR4-TG: TG 150-160
+- Thickness: 1.2
+- Min Track/Spacing: 8/8mil (0.2 mm)
+- Min Hole Size: 0.3 mm
+- Solder Mask: Black
+- Silkscreen: White
+- Edge connector: No
+- Surface Finish: HASL with lead
+- Yes - Tick means you accept we might change "HASL" to "ENIG" at our discretion without extra charge.
+- Via Process: Tenting vias
+- Finished Copper: 1 oz Cu
+- Other Special request:
+~~~
+Final size is larger ( 36.1 x 106.6 mm ) than board it self ( 36.1 x 52.35 mm )
+~~~
+
+### Assembly Service
+
+- Turnkey
+- Board type : Panelized PCBs
+-  Assembly Side(s): Both sides
+- Quantity: 200
+- Contains Sensitive components/parts - No; 
+- Do you accept alternatives/substitutes made in China? - Yes
+
+- Number of Unique Parts: 0
+- Number of SMD Parts: 0
+- Number of BGA/QFP Parts: 0
+- Number of Through-Hole Parts: 0
+
+### Additional Options
+
+- Firmware loading: Yes
+- Detailed information of assembly:
+~~~
+Firmware is in attachements.
+Take a look at the picure in attachements should be installed from the side.
+~~~
+
+## Device and Documentation Support
+
+- [User manual]()
+- [Hardware docs](doc/doc.pdf)
+
+## Device Support
+
+- [Firmware sources]()
+- [Firmware binary]()
+
+## TERMS OF USAGE / LICENCE
+
+The material provided in this Github repository is subject to the following conditions. 
+
+Firmware files: All firmwares are free (but not open source). Besides unlimited private use you are also granted the permission to use them for commercial purposes under the condition that (1) you don’t modify the firmware, e.g. remove or change copyright statements, (2) provide it for free, i.e. don’t charge any explicit or implicit fees to your customers, and (3) correctly and clearly cite the origin of the firmware and the project web page in any product documentation or web page. 
+
+Hardware files: All hardware, for which material is provided, is open source hardware, under the terms of the TAPR Open Hardware License as published by the Free Hardware Foundation, see http://www.tapr.org/ohl.html. The TAPR license explicitly permits essentially unlimited commercial use, with only few conditions such as that copyright logos are not removed.
+

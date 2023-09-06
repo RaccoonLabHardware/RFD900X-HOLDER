@@ -1,10 +1,13 @@
 History/
+PCBWay-output/
 Project Logs for */
 *.PrjPcbStructure
 *.rar
-*.jpg
+*.zip
 __Previews/
 Status Report.Txt
 *.htm
 *.html
 ~*
+pcb-versions/
+paths.json

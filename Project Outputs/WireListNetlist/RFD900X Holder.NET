@@ -1,0 +1,272 @@
+Wire List
+
+<<< Component List >>>
+GCM155R71H104KE02D              C1             CAPC1005X55N
+GCM155R71H104KE02D              C2             CAPC1005X55N
+GRM31CR71H225KA88L              C3             *CAP3216X125N
+GRM31CR71H225KA88L              C4             *CAP3216X125N
+GRM31CR71H225KA88L              C5             *CAP3216X125N
+GRM31CR61A476KE15L              C6             *CAPC3216X125N
+GRM31CR61A476KE15L              C7             *CAPC3216X125N
+GRM31CR61A476KE15L              C8             *CAPC3216X125N
+GRM188R71C105KA12D              C9             CAPC1608X90N
+GCM155R71H104KE02D              C10            CAPC1005X55N
+GCM155R71H104KE02D              C11            CAPC1005X55N
+CC0402KRX5R5BB105               C12            CAPC1005X55N
+GCM155R71H104KE02D              C13            CAPC1005X55N
+GCM155R71H104KE02D              C14            CAPC1005X55N
+SK56                            D1             *SMB_P6SMB62AT3G(Primary)
+SS16                            D2             *DIOM5227X250N_SS16(Primary)
+IHLP2020BZER100M01              L1             IHLP
+XT30PW-M                        PWR            XT30PW-M
+RC0603FR-0733KL                 R1             J1-0603
+RC0603FR-0733KL                 R2             J1-0603
+RC0402FR-0762KL                 R3             RESC1005X40N
+RC0603FR-07330RL                R4             J1-0603
+RC0402FR-0762KL                 R5             RESC1005X40N
+RC0402FR-0710KL                 R6             RESC1005X40N
+RC0402FR-07330RL                R7             RESC1005X40N
+RC0402FR-07330RL                R8             RESC1005X40N
+RC0402FR-07330RL                R9             RESC1005X40N
+RC0402FR-07330RL                R10            RESC1005X40N
+RC0402FR-074K7L                 R11            RESC1005X40N
+RC0402FR-0722RL                 R12            RESC1005X40N
+RC0402FR-0722RL                 R13            RESC1005X40N
+RC0402FR-075K1L                 R14            RESC1005X40N
+RC0402FR-075K1L                 R15            RESC1005X40N
+RC0402FR-07330RL                R16            RESC1005X40N
+2.54mm 2x8R C52105              RFD900X        2.54mm 2x8R
+SM04B-GHS-TB(LF)(SN)-           SBUS           JST_SM04B-GHS-TB(LF)(SN)-
+SM06B-GHS-TB(LF)(SN)            TELEM          JST_SM06B-GHS-TB(LF)(SN)
+LMR16030SDDAR                   U1             *SOIC127P600X170-9N - duplica
+CH340G                          U2             SOIC127P600X180-16N
+CP2102N-A01-GQFN28              U3             QFN50P500X500X80-29N
+UJ31-CH-31N-SMT-TR              USB            CUI_UJ31-CH-31N-SMT-TR
+CSTCE12M0G55Z-R0                Y1             *OSC_CSTCE8M00G55-R0
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00067] Vin
+        C2         1       1              PASSIVE     GCM155R71H104KE02D
+        C3         1       1              PASSIVE     GRM31CR71H225KA88L
+        C4         1       1              PASSIVE     GRM31CR71H225KA88L
+        C5         1       1              PASSIVE     GRM31CR71H225KA88L
+        PWR        PLUS    +              PASSIVE     XT30PW-M
+        R1         2       2              PASSIVE     RC0603FR-0733KL
+        R2         2       2              PASSIVE     RC0603FR-0733KL
+        U1         2       VIN            POWER       LMR16030SDDAR
+
+[00066] VBUS
+        C10        2       2              PASSIVE     GCM155R71H104KE02D
+        C14        2       2              PASSIVE     GCM155R71H104KE02D
+        D2         A       A              PASSIVE     SS16
+        R11        1       1              PASSIVE     RC0402FR-074K7L
+        U2         16      VCC            POWER       CH340G
+        U3         7       VREGIN         POWER       CP2102N-A01-GQFN28
+        U3         8       VBUS           POWER       CP2102N-A01-GQFN28
+        USB        A4      VBUS           POWER       UJ31-CH-31N-SMT-TR
+        USB        A9      VBUS           POWER       UJ31-CH-31N-SMT-TR
+        USB        B4      VBUS           POWER       UJ31-CH-31N-SMT-TR
+        USB        B9      VBUS           POWER       UJ31-CH-31N-SMT-TR
+
+[00065] TXO_RFD
+        R7         1       1              PASSIVE     RC0402FR-07330RL
+        R16        1       1              PASSIVE     RC0402FR-07330RL
+        RFD900X    09      09             PASSIVE     2.54mm 2x8R C52105
+        TELEM      3       3              PASSIVE     SM06B-GHS-TB(LF)(SN)
+
+[00064] TXO
+        R8         2       2              PASSIVE     RC0402FR-07330RL
+        U2         2       TXD            OUTPUT      CH340G
+        U3         26      TXD            POWER       CP2102N-A01-GQFN28
+
+[00063] STM_USB_P
+        R13        1       1              PASSIVE     RC0402FR-0722RL
+        USB        A6      DP1            I/O         UJ31-CH-31N-SMT-TR
+        USB        B6      DP2            I/O         UJ31-CH-31N-SMT-TR
+
+[00062] STM_USB_N
+        R12        1       1              PASSIVE     RC0402FR-0722RL
+        USB        A7      DN1            I/O         UJ31-CH-31N-SMT-TR
+        USB        B7      DN2            I/O         UJ31-CH-31N-SMT-TR
+
+[00061] STM_USB_DP
+        R13        2       2              PASSIVE     RC0402FR-0722RL
+        U2         5       UD+            I/O         CH340G
+        U3         4       D+             I/O         CP2102N-A01-GQFN28
+
+[00060] STM_USB_DM
+        R12        2       2              PASSIVE     RC0402FR-0722RL
+        U2         6       UD-            I/O         CH340G
+        U3         5       D-             I/O         CP2102N-A01-GQFN28
+
+[00059] STM_IP1
+        R15        1       1              PASSIVE     RC0402FR-075K1L
+        USB        B5      CC2            I/O         UJ31-CH-31N-SMT-TR
+
+[00058] STM_IP0
+        R14        1       1              PASSIVE     RC0402FR-075K1L
+        USB        A5      CC1            I/O         UJ31-CH-31N-SMT-TR
+
+[00057] RXI_RFD
+        R8         1       1              PASSIVE     RC0402FR-07330RL
+        R16        2       2              PASSIVE     RC0402FR-07330RL
+        RFD900X    07      07             PASSIVE     2.54mm 2x8R C52105
+        TELEM      2       2              PASSIVE     SM06B-GHS-TB(LF)(SN)
+
+[00056] RXD
+        R7         2       2              PASSIVE     RC0402FR-07330RL
+        U2         3       RXD            INPUT       CH340G
+        U3         25      RXD            INPUT       CP2102N-A01-GQFN28
+
+[00055] RTS
+        R10        1       1              PASSIVE     RC0402FR-07330RL
+        RFD900X    11      11             PASSIVE     2.54mm 2x8R C52105
+        TELEM      4       4              PASSIVE     SM06B-GHS-TB(LF)(SN)
+
+[00054] nRTS
+        R9         2       2              PASSIVE     RC0402FR-07330RL
+        U2         14      R\T\S\\        OUTPUT      CH340G
+        U3         24      RTS            POWER       CP2102N-A01-GQFN28
+
+[00023] NetU2_8
+        U2         8       XO             OUTPUT      CH340G
+        Y1         1       1              PASSIVE     CSTCE12M0G55Z-R0
+
+[00022] NetU2_7
+        U2         7       XI             INPUT       CH340G
+        Y1         3       3              PASSIVE     CSTCE12M0G55Z-R0
+
+[00019] NetR11_2
+        R11        2       2              PASSIVE     RC0402FR-074K7L
+        U3         9       R\S\T\\        INPUT       CP2102N-A01-GQFN28
+
+[00018] NetR5_2
+        R5         2       2              PASSIVE     RC0402FR-0762KL
+        U1         4       RT/SYNC        INPUT       LMR16030SDDAR
+
+[00017] NetC11_2
+        C11        2       2              PASSIVE     GCM155R71H104KE02D
+        U2         4       V3             POWER       CH340G
+
+[00016] NetC9_2
+        C9         2       2              PASSIVE     GRM188R71C105KA12D
+        U1         6       SS             INPUT       LMR16030SDDAR
+
+[00015] NetC1_2
+        C1         2       2              PASSIVE     GCM155R71H104KE02D
+        U1         1       BOOT           POWER       LMR16030SDDAR
+
+[00014] NetC1_1
+        C1         1       1              PASSIVE     GCM155R71H104KE02D
+        D1         C       C              POWER       SK56
+        L1         2       2              PASSIVE     IHLP2020BZER100M01
+        U1         8       SW             POWER       LMR16030SDDAR
+
+[00013] nDTR
+        U2         13      D\T\R\\        OUTPUT      CH340G
+
+[00012] nCTS
+        R10        2       2              PASSIVE     RC0402FR-07330RL
+        U2         9       C\T\S\\        INPUT       CH340G
+        U3         23      CTS            INPUT       CP2102N-A01-GQFN28
+
+[00011] GPIO5
+        RFD900X    08      08             PASSIVE     2.54mm 2x8R C52105
+
+[00010] GPIO4
+        RFD900X    10      10             PASSIVE     2.54mm 2x8R C52105
+
+[00009] GPIO3
+        RFD900X    12      12             PASSIVE     2.54mm 2x8R C52105
+
+[00008] GPIO2
+        RFD900X    14      14             PASSIVE     2.54mm 2x8R C52105
+
+[00007] GPIO1
+        RFD900X    15      15             PASSIVE     2.54mm 2x8R C52105
+        SBUS       2       2              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+
+[00006] GPIO0
+        RFD900X    13      13             PASSIVE     2.54mm 2x8R C52105
+
+[00005] GND
+        C2         2       2              PASSIVE     GCM155R71H104KE02D
+        C3         2       2              PASSIVE     GRM31CR71H225KA88L
+        C4         2       2              PASSIVE     GRM31CR71H225KA88L
+        C5         2       2              PASSIVE     GRM31CR71H225KA88L
+        C6         1       1              PASSIVE     GRM31CR61A476KE15L
+        C7         1       1              PASSIVE     GRM31CR61A476KE15L
+        C8         1       1              PASSIVE     GRM31CR61A476KE15L
+        C9         1       1              PASSIVE     GRM188R71C105KA12D
+        C10        1       1              PASSIVE     GCM155R71H104KE02D
+        C11        1       1              PASSIVE     GCM155R71H104KE02D
+        C12        2       2              PASSIVE     CC0402KRX5R5BB105
+        C13        1       1              PASSIVE     GCM155R71H104KE02D
+        C14        1       1              PASSIVE     GCM155R71H104KE02D
+        D1         A       A              POWER       SK56
+        PWR        MINUS   -              PASSIVE     XT30PW-M
+        R1         1       1              PASSIVE     RC0603FR-0733KL
+        R2         1       1              PASSIVE     RC0603FR-0733KL
+        R4         1       1              PASSIVE     RC0603FR-07330RL
+        R5         1       1              PASSIVE     RC0402FR-0762KL
+        R6         1       1              PASSIVE     RC0402FR-0710KL
+        R14        2       2              PASSIVE     RC0402FR-075K1L
+        R15        2       2              PASSIVE     RC0402FR-075K1L
+        RFD900X    01      01             PASSIVE     2.54mm 2x8R C52105
+        RFD900X    02      02             PASSIVE     2.54mm 2x8R C52105
+        RFD900X    16      16             PASSIVE     2.54mm 2x8R C52105
+        SBUS       4       4              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+        SBUS       SH1     SHIELD         POWER       SM04B-GHS-TB(LF)(SN)-
+        SBUS       SH2     SHIELD         POWER       SM04B-GHS-TB(LF)(SN)-
+        TELEM      6       6              PASSIVE     SM06B-GHS-TB(LF)(SN)
+        TELEM      S1      SHIELD         PASSIVE     SM06B-GHS-TB(LF)(SN)
+        TELEM      S2      SHIELD         PASSIVE     SM06B-GHS-TB(LF)(SN)
+        U1         7       GND            POWER       LMR16030SDDAR
+        U1         9       GND            POWER       LMR16030SDDAR
+        U2         1       GND            POWER       CH340G
+        U3         3       GND            POWER       CP2102N-A01-GQFN28
+        U3         29      GND            POWER       CP2102N-A01-GQFN28
+        USB        A1      GND            POWER       UJ31-CH-31N-SMT-TR
+        USB        A12     GND            POWER       UJ31-CH-31N-SMT-TR
+        USB        B1      GND            POWER       UJ31-CH-31N-SMT-TR
+        USB        B12     GND            POWER       UJ31-CH-31N-SMT-TR
+        USB        SH1     SHIELD         POWER       UJ31-CH-31N-SMT-TR
+        USB        SH2     SHIELD         POWER       UJ31-CH-31N-SMT-TR
+        USB        SH3     SHIELD         POWER       UJ31-CH-31N-SMT-TR
+        USB        SH4     SHIELD         POWER       UJ31-CH-31N-SMT-TR
+        USB        SH5     SHIELD         POWER       UJ31-CH-31N-SMT-TR
+        USB        SH6     SHIELD         POWER       UJ31-CH-31N-SMT-TR
+        Y1         2       2              POWER       CSTCE12M0G55Z-R0
+
+[00004] FB4
+        R3         1       1              PASSIVE     RC0402FR-0762KL
+        R6         2       2              PASSIVE     RC0402FR-0710KL
+        U1         5       FB             INPUT       LMR16030SDDAR
+
+[00003] CTS
+        R9         1       1              PASSIVE     RC0402FR-07330RL
+        RFD900X    03      03             PASSIVE     2.54mm 2x8R C52105
+        TELEM      5       5              PASSIVE     SM06B-GHS-TB(LF)(SN)
+
+[00002] 5V
+        C6         2       2              PASSIVE     GRM31CR61A476KE15L
+        C7         2       2              PASSIVE     GRM31CR61A476KE15L
+        C8         2       2              PASSIVE     GRM31CR61A476KE15L
+        D2         C       K              PASSIVE     SS16
+        L1         1       1              PASSIVE     IHLP2020BZER100M01
+        R3         2       2              PASSIVE     RC0402FR-0762KL
+        R4         2       2              PASSIVE     RC0603FR-07330RL
+        RFD900X    04      04             PASSIVE     2.54mm 2x8R C52105
+        RFD900X    05      05             PASSIVE     2.54mm 2x8R C52105
+        RFD900X    06      06             PASSIVE     2.54mm 2x8R C52105
+        SBUS       1       1              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+        TELEM      1       1              PASSIVE     SM06B-GHS-TB(LF)(SN)
+
+[00001] 3.3
+        C12        1       1              PASSIVE     CC0402KRX5R5BB105
+        C13        2       2              PASSIVE     GCM155R71H104KE02D
+        U3         6       VDD            POWER       CP2102N-A01-GQFN28
+
