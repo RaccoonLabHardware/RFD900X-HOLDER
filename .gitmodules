@@ -1,0 +1,3 @@
+[submodule "scripts/pcb-tools"]
+	path = scripts/pcb-tools
+	url = https://github.com/sainquake/pcb-tools
